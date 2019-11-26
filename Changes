@@ -1,11 +1,3 @@
-0.002   2019-10-16  Released-By: PERLANCAR; Urgency: low
+0.001   2019-11-26  Released-By: PERLANCAR
 
-	- No functional changes.
-
-	- [doc] Mention Acme::CPANModules::PickingRandomItemsFromList.
-
-
-0.001   2019-01-09  Released-By: PERLANCAR
-
-        - First release, split from Acme-CPANModulesBundle-PERLANCAR and remove
-          the PERLANCAR:: in the name.
+        - First release.
