@@ -1,8 +1,12 @@
 package Acme::CPANModules::ReadingFilesBackward;
 
+# AUTHORITY
 # DATE
 # DIST
 # VERSION
+
+use strict;
+use Acme::CPANModulesUtil::Misc;
 
 our $LIST = {
     summary => 'Reading files backward (in reverse)',
@@ -41,6 +45,8 @@ have to use a custom API for reading files.
 _
     'x.app.cpanmodules.show_entries' => 0,
 };
+
+Acme::CPANModulesUtil::Misc::populate_entries_from_module_links_in_description;
 
 1;
 # ABSTRACT:
